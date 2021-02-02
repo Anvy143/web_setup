@@ -14,5 +14,5 @@
     - name: start service
       service:
            name: httpd
-           state: installed
+           state: started
            enabled: yes
