@@ -11,8 +11,8 @@
          content: This is my First copy
          dest: /var/www/html/index.html
            
-     - name: start service
-       service:
+    - name: start service
+      service:
            name: httpd
            state: installed
            enabled: yes
